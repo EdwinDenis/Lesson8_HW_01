@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Lato-Light';
-    src: url('/fonts/Lato-Light.ttf');
+    src: url('../fonts/Lato-Light.ttf');
 }
 
 @font-face {
     font-family: 'Miso-Bold';
-    src: url('/fonts/miso-bold.ttf');
+    src: url('../fonts/miso-bold.ttf');
 }
 
 @font-face {
     font-family: 'Miso-Light';
-    src: url('/fonts/miso-light.ttf');
+    src: url('../fonts/miso-light.ttf');
 }
 
 *{
