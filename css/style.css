@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('/fonts/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Miso-Bold';
+    src: url('/fonts/miso-bold.ttf');
+}
+
+@font-face {
+    font-family: 'Miso-Light';
+    src: url('/fonts/miso-light.ttf');
+}
+
+*{
+    transition: all .5s ease-in;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:100%;
+    height: 100%;
+    background: #6C6C6C;
+    padding-top: 50px;
+}
+
+.container{
+    max-width: 1200px;
+    height: 600px;
+    background: #FDDE7E;
+    box-shadow: 1px 1px 10px 0px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+    width: 30%;
+    height: 442px;
+    background: #fff;
+    box-shadow: 1px 1px 10px 0px;
+    border-radius: 4px;
+    padding-top:42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box h2{
+    font-family: 'Miso-Bold';
+    font-size: 70px;
+    color:green;
+}
+
+.box img{
+    height: 136px;
+    align-self: center;
+    margin-bottom: 26px;
+}
+
+.box h3{
+    font-size: 56px;
+    font-family: 'Miso-Light';
+    margin-bottom: 26px;
+}
+
+.box p{
+    font-size: 20px;
+    font-family: 'Lato-Light';
+}
+
+.box:hover{
+    transform: scaleY(1.131);
+}
